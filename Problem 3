@@ -1,0 +1,38 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+int size,i,j,x;
+char character[10];
+cout<<"Enter Array Size: "; cin>> size;
+
+cout<<"Enter "<<size<< " characters: ";
+
+for (i=0;i<size;i++){
+
+cin>>character[i];
+}
+		j=i-1;
+	i=0;
+while(i<j)
+{
+x=character[i];
+character[i]=character[j];
+character[j]=x;
+i++;
+j--;
+}
+
+cout<< "The array size is "<<size<<endl;
+cout<< "What you entered in reverse is: ";
+
+for (i = 0;i<size;i++){
+
+cout<< character[i]<<" ";
+}
+
+
+return 0;
+}
