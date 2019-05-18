@@ -1,0 +1,44 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+int provinceA[7],provinceB[7],provinceC[7],i,sum=0,average;
+
+
+// Enter values for temps
+for (i=1;i<8;i++){
+cout<<"Enter temperature for province A Day"<<i<<": ";
+cin>>provinceA[i];
+}
+
+for (i=1;i<8;i++){
+cout<<"Enter temperature for province B Day"<<i<<": ";
+cin>>provinceB[i];
+}
+
+for (i=1;i<8;i++){
+cout<<"Enter temperature for province C Day"<<i<<": ";
+cin>>provinceC[i];
+}
+// Show the temps entered
+
+for (i=1;i<8;i++){
+cout<<"The temperature for province A Day"<<i<<": ";
+cout<<provinceA[i]<<endl;
+}
+
+for (i=1;i<8;i++){
+cout<<"The temperature for province B Day"<<i<<": ";
+cout<<provinceB[i]<<endl;
+}
+
+for (i=1;i<8;i++){
+cout<<"The temperature for province C Day"<<i<<": ";
+cout<<provinceC[i]<<endl;
+}
+
+return 0;
+}
