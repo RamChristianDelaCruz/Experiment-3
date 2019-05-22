@@ -9,34 +9,34 @@ int provinceA[7],provinceB[7],provinceC[7],i;
 
 
 // Enter values for temps
-for (i=1;i<8;i++){
-cout<<"Enter temperature for province A Day"<<i<<": ";
+for (i=0;i<7;i++){
+cout<<"Enter temperature for province A Day"<<i+1<<": ";
 cin>>provinceA[i];
 }
 
-for (i=1;i<8;i++){
-cout<<"Enter temperature for province B Day"<<i<<": ";
+for (i=0;i<7;i++){
+cout<<"Enter temperature for province B Day"<<i+1<<": ";
 cin>>provinceB[i];
 }
 
-for (i=1;i<8;i++){
-cout<<"Enter temperature for province C Day"<<i<<": ";
+for (i=0;i<7;i++){
+cout<<"Enter temperature for province C Day"<<i+1<<": ";
 cin>>provinceC[i];
 }
 // Show the temps entered
 
-for (i=1;i<8;i++){
-cout<<"The temperature for province A Day"<<i<<": ";
+for (i=0;i<7;i++){
+cout<<"The temperature for province A Day"<<i+1<<": ";
 cout<<provinceA[i]<<endl;
 }
 
-for (i=1;i<8;i++){
-cout<<"The temperature for province B Day"<<i<<": ";
+for (i=0;i<7;i++){
+cout<<"The temperature for province B Day"<<i+1<<": ";
 cout<<provinceB[i]<<endl;
 }
 
-for (i=1;i<8;i++){
-cout<<"The temperature for province C Day"<<i<<": ";
+for (i=0;i<7;i++){
+cout<<"The temperature for province C Day"<<i+1<<": ";
 cout<<provinceC[i]<<endl;
 }
 
