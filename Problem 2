@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-int provinceA[7],provinceB[7],provinceC[7],i;
+int provinceA[7],provinceB[7],provinceC[7],i,j;
 
 
 // Enter values for temps
@@ -24,21 +24,17 @@ cout<<"Enter temperature for province C Day"<<i+1<<": ";
 cin>>provinceC[i];
 }
 // Show the temps entered
-
+cout<<"           Temperatures for provinces A,B,C for 7 days"<<endl;
 for (i=0;i<7;i++){
-cout<<"The temperature for province A Day"<<i+1<<": ";
-cout<<provinceA[i]<<endl;
+	for (j=0;j<1;j++){
+cout<<"Province A Day"<<i+1<<": ";
+cout<<provinceA[i]<<"    ";
+cout<<"Province B Day"<<i+1<<": ";
+cout<<provinceB[i]<<"    ";
+cout<<"Province C Day"<<i+1<<": ";
+cout<<provinceC[i]<<"    ";
 }
-
-for (i=0;i<7;i++){
-cout<<"The temperature for province B Day"<<i+1<<": ";
-cout<<provinceB[i]<<endl;
+cout<<endl;
 }
-
-for (i=0;i<7;i++){
-cout<<"The temperature for province C Day"<<i+1<<": ";
-cout<<provinceC[i]<<endl;
-}
-
 return 0;
 }
